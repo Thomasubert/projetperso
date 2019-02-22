@@ -1,0 +1,19 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+
+
+home:
+    path: /home
+    controller: App\Controller\HomeController::home
+
+
+profil:
+    path: /profil
+    controller: App\Controller\HomeController::profil
+
+
+produit:
+    path: /produit
+    controller: App\Controller\ProduitController::index
